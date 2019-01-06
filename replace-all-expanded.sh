@@ -1,3 +1,6 @@
+$THEME_NAME = ("Suru++" "suru-plus" "suru-plus-master")
+$DIRECTORIES = ("/home/$USER/.icons/$THEME_NAME" "/home/$USER/.local/share/icons/$THEME_NAME" "/usr/share/icons/$THEME_NAME")
+
 echo "Which type of colour do you prefer? Write the nummber"
 echo "1) solid 2) gradient"
 read type
@@ -53,25 +56,11 @@ go_dir_to_breeze()
 		done
 	}
 
-	cd apps='apps/16'
-	change_colour
-	cd ..
-
-	cd places='places/16'
-	change_colour
-	cd ..
-
-	cd mimetypes='mimetypes/16'
-	change_colour
+	cd apps/16 && change_colour && cd places/16 && change_colour && cd mimetypes/16 && change_colour
 	
 }
 
-if [ find /home/$USER/.icons/suru-plus ] || [ find /home/$USER/.icons/suru-plus-master ] || [ find /home/$USER/.icons/Suru++ ]; then
-	go_dir_to_breeze
-elif [ find /home/$USER/local/share/icons/suru-plus ] || [ find /home/$USER/local/share/icons/suru-plus-master ] || [ find /home/$USER/local/share/icons/Suru++ ]; then
-	go_dir_to_breeze
-# Observe that to change the colour of icons, it is required to run as root
-elif [ find /usr/share/icons/suru-plus ] || [ find /usr/share/icons/suru-plus-master ] || [ find /usr/share/icons/Suru++ ]; then
+if [ -d $DIRECTORIES ]; then
 	go_dir_to_breeze
 else
 	echo "Icons theme Suru++ does not exist! You should rename the icons theme folder to “suru-plus” or “Suru++”."
