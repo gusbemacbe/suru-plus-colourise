@@ -1,11 +1,10 @@
-$THEME_NAME = ("Suru++" "suru-plus" "suru-plus-master")
-$DIRECTORIES = ("/home/$USER/.icons/$THEME_NAME" "/home/$USER/.local/share/icons/$THEME_NAME" "/usr/share/icons/$THEME_NAME")
+DIRECTORIES=("/home/$USER/.icons/Suru++" "/home/$USER/.local/share/icons/Suru++" "/usr/share/icons/Suru++" "/home/$USER/.icons/suru-plus" "/home/$USER/.local/share/icons/suru-plus" "/usr/share/icons/suru-plus" "/home/$USER/.icons/suru-plus-master" "/home/$USER/.local/share/icons/suru-plus-master" "/usr/share/icons/suru-plus-master")
 
 echo "Which type of colour do you prefer? Write the nummber"
 echo "1) solid 2) gradient"
 read type
 
-if [$type = "1"]; then
+if [ "$type" == "1" ]; then
 	echo "Write one of these colours to choose your favourite:"
 	echo "black gold green\n grey orange purple\n red yellow"
 	read color
