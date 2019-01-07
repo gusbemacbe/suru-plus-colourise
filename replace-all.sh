@@ -55,7 +55,7 @@ go_dir_to_breeze()
 		done
 	}
 
-	cd apps/16 && change_colour && cd places/16 && change_colour && cd mimetypes/16 && change_colour
+	cd apps/16 && change_colour && cd ../../places/16 && change_colour && cd ../../mimetypes/16 && change_colour
 	
 }
 
