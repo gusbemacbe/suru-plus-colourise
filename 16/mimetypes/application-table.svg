@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="isolation:isolate" width="16" height="16" viewBox="0 0 16 16">
+ <defs>
+   <style id="current-color-scheme" type="text/css">
+   .ColorScheme-Text { color:#5c616c; } .ColorScheme-Highlight { color:#5294e2; }
+  </style>
+  <linearGradient id="grad1" x1="0%" x2="0%" y1="0%" y2="100%">
+   <stop offset="0%" style="stop-color:#f99f5e; stop-opacity:1"/>
+   <stop offset="100%" style="stop-color:#f95e6b; stop-opacity:1"/>
+  </linearGradient>
+ </defs>
+   <path style="fill:url(#grad1);" class="ColorScheme-Text" d="M 16 0.571429 L 16 15.428571 L 0 15.428571 L 0 0.571429 M 14.857143 1.714286 L 6.857143 1.714286 L 6.857143 5.142857 L 14.857143 5.142857 M 5.714286 1.714286 L 1.142857 1.714286 L 1.142857 5.142857 L 5.714286 5.142857 M 14.857143 6.285714 L 6.857143 6.285714 L 6.857143 9.714286 L 14.857143 9.714286 M 5.714286 6.285714 L 1.142857 6.285714 L 1.142857 9.714286 L 5.714286 9.714286 M 14.857143 10.857143 L 6.857143 10.857143 L 6.857143 14.285714 L 14.857143 14.285714 M 5.714286 10.857143 L 1.142857 10.857143 L 1.142857 14.285714 L 5.714286 14.285714"/>
+</svg>

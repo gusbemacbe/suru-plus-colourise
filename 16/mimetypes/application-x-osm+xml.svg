@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="isolation:isolate" width="16" height="16" viewBox="0 0 16 16">
+ <defs>
+   <style id="current-color-scheme" type="text/css">
+   .ColorScheme-Text { color:#5c616c; } .ColorScheme-Highlight { color:#5294e2; }
+  </style>
+  <linearGradient id="grad1" x1="0%" x2="0%" y1="0%" y2="100%">
+   <stop offset="0%" style="stop-color:#f99f5e; stop-opacity:1"/>
+   <stop offset="100%" style="stop-color:#f95e6b; stop-opacity:1"/>
+  </linearGradient>
+ </defs>
+   <path style="fill:url(#grad1);" class="ColorScheme-Text" fill-rule="evenodd" d="M 8 0 C 4.6865 0 2 2.6865 2 6 C 2 9.313499 6 16 8 16 C 10 16 14 9.313499 14 6 C 14 2.6865 11.313499 0 8 0 Z M 8 2.6665 C 9.841 2.6665 11.3335 4.159 11.3335 6 C 11.3335 7.841 9.841 9.3335 8 9.3335 C 6.159 9.3335 4.6665 7.841 4.6665 6 C 4.6665 4.159 6.159 2.6665 8 2.6665 Z"/>
+</svg>
