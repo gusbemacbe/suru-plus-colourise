@@ -3,12 +3,12 @@
    <style id="current-color-scheme" type="text/css">
    .ColorScheme-Text { color:#5c616c; } .ColorScheme-Highlight { color:#5294e2; }
   </style>
-  <linearGradient id="grad1" x1="0%" x2="0%" y1="0%" y2="100%">
+  <linearGradient id="oomox" x1="0%" x2="0%" y1="0%" y2="100%">
    <stop offset="0%" style="stop-color:#f99f5e; stop-opacity:1"/>
    <stop offset="100%" style="stop-color:#f95e6b; stop-opacity:1"/>
   </linearGradient>
  </defs>
  <g transform="translate(-781,238.99987)">
-  <path style="fill:url(#grad1)" class="ColorScheme-Text" d="M 2 2 L 2 3 C 2 3.55016 2.45347 4 3 4 C 7.97056 4 12 8.02944 12 13 C 12 13.55016 12.45347 14 13 14 L 14 14 L 14 13 C 14 6.92487 9.07513 2 3 2 L 2 2 z M 2 6 L 2 7 C 2 7.55016 2.45347 8 3 8 C 5.76143 8 8 10.23857 8 13 C 8 13.55016 8.45347 14 9 14 L 10 14 L 10 13 C 10 9.134 6.866 6 3 6 L 2 6 z M 4 10 C 2.8954297 10 2 10.895453 2 12 C 2 13.104547 2.8954297 14 4 14 C 5.1045703 14 6 13.104547 6 12 C 6 10.895453 5.1045703 10 4 10 z" transform="translate(781,-238.99987)"/>
+  <path style="fill:url(#oomox)" class="ColorScheme-Text" d="M 2 2 L 2 3 C 2 3.55016 2.45347 4 3 4 C 7.97056 4 12 8.02944 12 13 C 12 13.55016 12.45347 14 13 14 L 14 14 L 14 13 C 14 6.92487 9.07513 2 3 2 L 2 2 z M 2 6 L 2 7 C 2 7.55016 2.45347 8 3 8 C 5.76143 8 8 10.23857 8 13 C 8 13.55016 8.45347 14 9 14 L 10 14 L 10 13 C 10 9.134 6.866 6 3 6 L 2 6 z M 4 10 C 2.8954297 10 2 10.895453 2 12 C 2 13.104547 2.8954297 14 4 14 C 5.1045703 14 6 13.104547 6 12 C 6 10.895453 5.1045703 10 4 10 z" transform="translate(781,-238.99987)"/>
  </g>
 </svg>

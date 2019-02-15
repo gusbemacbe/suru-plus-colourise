@@ -3,7 +3,7 @@
   <style id="current-color-scheme" type="text/css">
    .ColorScheme-Text { color:#5c616c; } .ColorScheme-Highlight { color:#5294e2; }
   </style>
-  <linearGradient id="grad1" x1="0%" x2="0%" y1="0%" y2="100%">
+  <linearGradient id="oomox" x1="0%" x2="0%" y1="0%" y2="100%">
    <stop offset="0%" style="stop-color:#f99f5e; stop-opacity:1"/>
    <stop offset="100%" style="stop-color:#f95e6b; stop-opacity:1"/>
   </linearGradient>
@@ -12,15 +12,15 @@
   </clipPath>
  </defs>
  <g clip-path="url(#_clipPath_P8xwzHpE41q2GWkd1uGED2kKrAKCmKMj)">
-  <rect style="fill:url(#grad1)" class="ColorScheme-Text" fill-opacity="0" width="16" height="16"/>
+  <rect style="fill:url(#oomox)" class="ColorScheme-Text" fill-opacity="0" width="16" height="16"/>
   <g opacity=".6">
-   <path style="fill:url(#grad1)" class="ColorScheme-Text" d="M 12 6.8 L 16 9.1 L 16 13.7 L 12 16 L 8 13.7 L 4 16 L 0 13.7 L 0 9.1 L 4 6.8 L 4 2.3 L 8 0 L 12 2.3 L 12 6.8 Z"/>
+   <path style="fill:url(#oomox)" class="ColorScheme-Text" d="M 12 6.8 L 16 9.1 L 16 13.7 L 12 16 L 8 13.7 L 4 16 L 0 13.7 L 0 9.1 L 4 6.8 L 4 2.3 L 8 0 L 12 2.3 L 12 6.8 Z"/>
   </g>
   <g opacity=".8">
-   <path style="fill:url(#grad1)" class="ColorScheme-Text" d="M 12.031 6.844 L 16 9.1 L 16 13.7 L 12 16 L 12 11.45 L 15.984 9.141 L 12.016 6.859 L 8 9.2 L 8 13.7 L 4 16 L 4 11.563 L 8 9.1 L 8 4.55 L 12 2.3 L 12.031 6.844 Z"/>
+   <path style="fill:url(#oomox)" class="ColorScheme-Text" d="M 12.031 6.844 L 16 9.1 L 16 13.7 L 12 16 L 12 11.45 L 15.984 9.141 L 12.016 6.859 L 8 9.2 L 8 13.7 L 4 16 L 4 11.563 L 8 9.1 L 8 4.55 L 12 2.3 L 12.031 6.844 Z"/>
   </g>
   <g opacity=".3">
-   <path style="fill:url(#grad1)" class="ColorScheme-Text" fill-rule="evenodd" d="M 12 6.8 L 8 9.1 L 12 11.4 L 16 9.1 L 12 6.8 L 12 6.8 Z M 4 6.8 L 0 9.1 L 4 11.4 L 8 9.1 L 4 6.8 L 4 6.8 Z M 8 0 L 4 2.3 L 8 4.6 L 12 2.3 L 8 0 Z"/>
+   <path style="fill:url(#oomox)" class="ColorScheme-Text" fill-rule="evenodd" d="M 12 6.8 L 8 9.1 L 12 11.4 L 16 9.1 L 12 6.8 L 12 6.8 Z M 4 6.8 L 0 9.1 L 4 11.4 L 8 9.1 L 4 6.8 L 4 6.8 Z M 8 0 L 4 2.3 L 8 4.6 L 12 2.3 L 8 0 Z"/>
   </g>
  </g>
 </svg>

@@ -3,24 +3,15 @@
   <style id="current-color-scheme" type="text/css">
    .ColorScheme-Text { color:#5c616c; } .ColorScheme-Highlight { color:#5294e2; }
   </style>
-  <linearGradient id="grad1" x1="0%" x2="0%" y1="0%" y2="100%">
+  <linearGradient id="oomox" x1="0%" x2="0%" y1="0%" y2="100%">
    <stop offset="0%" style="stop-color:#f99f5e; stop-opacity:1"/>
    <stop offset="100%" style="stop-color:#f95e6b; stop-opacity:1"/>
   </linearGradient>
  </defs>
-<defs>
-  <style id="current-color-scheme" type="text/css">
-   .ColorScheme-Text { color:#5c616c; } .ColorScheme-Highlight { color:#5294e2; }
-  </style>
-  <linearGradient id="grad1" x1="0%" x2="0%" y1="0%" y2="100%">
-   <stop offset="0%" style="stop-color:#f99f5e; stop-opacity:1"/>
-   <stop offset="100%" style="stop-color:#f95e6b; stop-opacity:1"/>
-  </linearGradient>
- </defs>>
  <g transform="translate(0,-292.76665)">
-  <g transform="matrix(0.02995716,0,0,0.02995716,1.4425945,236.98482)" style="clip-rule:evenodd;fill-rule:evenodd;stroke:#888888;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision">
-   <path d="m -36.323192,1868.2136 v 128.5117 l 77.22273,-68.0352 z" style="clip-rule:evenodd;fill:none;stroke:url(#grad1);stroke-width:6;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision"/>
-   <path d="m 22.798618,1913.1087 41.14176,-41.6287 21.6179,0.2327 v 120 h -40.90908 v -25 l -21.15256,21.8614 -23.7443104,-23.5344" style="clip-rule:evenodd;fill:none;stroke:url(#grad1);stroke-width:6;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision"/>
+  <g transform="matrix(0.02995716,0,0,0.02995716,1.4425945,236.98482)">
+   <path style="fill:none; stroke: url(#oomox)" class="ColorScheme-Text" stroke-width="6.5" d="m -36.323192,1868.2136 v 128.5117 l 77.22273,-68.0352 z" />
+   <path style="fill:none; stroke: url(#oomox)" class="ColorScheme-Text" stroke-width="6.5" d="m 22.798618,1913.1087 41.14176,-41.6287 21.6179,0.2327 v 120 h -40.90908 v -25 l -21.15256,21.8614 -23.7443104,-23.5344"/>
   </g>
  </g>
 </svg>
