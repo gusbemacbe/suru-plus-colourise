@@ -3,9 +3,45 @@
   <style id="current-color-scheme" type="text/css">
    .ColorScheme-Text { color:#5c616c; } .ColorScheme-Highlight { color:#5294e2; }
   </style>
+  <linearGradient id="arrongin" x1="0%" x2="0%" y1="0%" y2="100%">
+   <stop offset="0%" style="stop-color:#dd9b44; stop-opacity:1"/>
+   <stop offset="100%" style="stop-color:#ad6c16; stop-opacity:1"/>
+  </linearGradient>
+  <linearGradient id="aurora" x1="0%" x2="0%" y1="0%" y2="100%">
+   <stop offset="0%" style="stop-color:#09D4DF; stop-opacity:1"/>
+   <stop offset="100%" style="stop-color:#9269F4; stop-opacity:1"/>
+  </linearGradient>
+  <linearGradient id="fitdance" x1="0%" x2="0%" y1="0%" y2="100%">
+   <stop offset="0%" style="stop-color:#1AD6AB; stop-opacity:1"/>
+   <stop offset="100%" style="stop-color:#329DB6; stop-opacity:1"/>
+  </linearGradient>
   <linearGradient id="oomox" x1="0%" x2="0%" y1="0%" y2="100%">
-   <stop offset="0%" style="stop-color:#f99f5e"/>
-   <stop offset="100%" style="stop-color:#f95e6b"/>
+   <stop offset="0%" style="stop-color:#efefe7; stop-opacity:1"/>
+   <stop offset="100%" style="stop-color:#8f8f8b; stop-opacity:1"/>
+  </linearGradient>
+  <linearGradient id="rainblue" x1="0%" x2="0%" y1="0%" y2="100%">
+   <stop offset="0%" style="stop-color:#00F260; stop-opacity:1"/>
+   <stop offset="100%" style="stop-color:#0575E6; stop-opacity:1"/>
+  </linearGradient>
+  <linearGradient id="sunrise" x1="0%" x2="0%" y1="0%" y2="100%">
+   <stop offset="0%" style="stop-color: #FF8501; stop-opacity:1"/>
+   <stop offset="100%" style="stop-color: #FFCB01; stop-opacity:1"/>
+  </linearGradient>
+  <linearGradient id="telinkrin" x1="0%" x2="0%" y1="0%" y2="100%">
+   <stop offset="0%" style="stop-color: #b2ced6; stop-opacity:1"/>
+   <stop offset="100%" style="stop-color: #6da5b7; stop-opacity:1"/>
+  </linearGradient>
+  <linearGradient id="60spsycho" x1="0%" x2="0%" y1="0%" y2="100%">
+   <stop offset="0%" style="stop-color: #df5940; stop-opacity:1"/>
+   <stop offset="25%" style="stop-color: #d8d15f; stop-opacity:1"/>
+   <stop offset="50%" style="stop-color: #e9882a; stop-opacity:1"/>
+   <stop offset="100%" style="stop-color: #279362; stop-opacity:1"/>
+  </linearGradient>
+  <linearGradient id="90ssummer" x1="0%" x2="0%" y1="0%" y2="100%">
+   <stop offset="0%" style="stop-color: #f618c7; stop-opacity:1"/>
+   <stop offset="20%" style="stop-color: #94ffab; stop-opacity:1"/>
+   <stop offset="50%" style="stop-color: #fbfd54; stop-opacity:1"/>
+   <stop offset="100%" style="stop-color: #0f83ae; stop-opacity:1"/>
   </linearGradient>
  </defs>
  <path style="fill:currentColor" class="ColorScheme-Text" d="M 9.562 10.169 C 9.373 10.194 9.177 10.144 9.025 10.027 C 8.872 9.911 8.77 9.74 8.745 9.548 C 8.72 9.359 8.77 9.163 8.887 9.01 C 9.003 8.858 9.174 8.756 9.366 8.73 C 9.508 8.709 9.653 8.701 9.799 8.701 C 10.093 8.701 10.391 8.738 10.678 8.807 C 11.074 8.897 11.444 9.068 11.775 9.304 C 12.182 9.602 12.505 9.998 12.716 10.46 C 12.836 10.725 12.927 11.008 12.985 11.295 C 13.05 11.63 13.086 11.967 13.086 12.305 L 13.086 12.36 C 13.09 12.709 13.054 13.057 12.985 13.402 C 12.927 13.7 12.828 13.991 12.694 14.263 C 12.469 14.732 12.124 15.132 11.695 15.422 C 11.35 15.651 10.968 15.815 10.565 15.906 C 10.282 15.967 9.995 16 9.704 16 C 9.599 16 9.493 15.996 9.388 15.985 C 9.195 15.964 9.021 15.869 8.901 15.72 C 8.778 15.571 8.723 15.379 8.741 15.186 C 8.763 14.994 8.858 14.819 9.007 14.699 C 9.156 14.576 9.348 14.518 9.541 14.54 C 9.591 14.543 9.642 14.547 9.693 14.547 C 9.882 14.547 10.067 14.525 10.249 14.485 C 10.474 14.438 10.689 14.347 10.881 14.22 C 11.099 14.071 11.274 13.867 11.386 13.631 C 11.466 13.464 11.524 13.29 11.561 13.112 C 11.611 12.868 11.637 12.618 11.633 12.371 C 11.633 12.371 11.633 12.367 11.633 12.367 L 11.633 12.313 C 11.633 12.313 11.633 12.313 11.633 12.313 C 11.633 12.065 11.608 11.818 11.561 11.579 C 11.524 11.401 11.47 11.226 11.393 11.063 C 11.288 10.834 11.125 10.63 10.925 10.481 C 10.747 10.358 10.551 10.267 10.343 10.22 C 10.162 10.176 9.977 10.155 9.788 10.155 C 9.711 10.155 9.639 10.158 9.562 10.169 Z"/>
