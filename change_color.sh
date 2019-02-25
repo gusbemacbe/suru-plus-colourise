@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-declare -i THEME_EXISTS=0
-
 declare -a THEME_DIRS=(
 	"$HOME/.icons/Suru++"
 	"$HOME/.local/share/icons/Suru++"
@@ -21,63 +19,60 @@ declare -a CONTEXT_DIRS=(
 	"mimetypes/16"
 )
 
-declare -a COLORS=(
-	arrongin
-	aurora
-	fitdance
-	oomox
-	rainblue
-	sunrise
-	telinkrin
-	60spsycho
-	90ssummer
+declare -A COLORS=(
+	[arrongin]="url(#arrongin)"
+	[aurora]="url(#aurora)"
+	[fitdance]="url(#fitdance)"
+	[oomox]="url(#oomox)"
+	[rainblue]="url(#rainblue)"
+	[sunrise]="url(#sunrise)"
+	[telinkrin]="url(#telinkrin)"
+	[60spsycho]="url(#60spsycho)"
+	[90ssummer]="url(#90ssummer)"
+	[default]="currentColor"
 )
 
-choose_color() 
-{
+choose_color() {
 	local color
 	local PS3="(put a number)> "  # set custom prompt
 	local COLUMNS=1
 
 	echo "Choose one of these colours:"
-	select color in "${COLORS[@]}"; do
+	select color in "${!COLORS[@]}"; do
 		case "${color:-$REPLY}" in
 			"$color")
-				COLOR="$color"
+				COLOR="${COLORS[$color]}"
 				break
 				;;
 			quit|[qQeE]*)
 				exit 0
 				;;
-			*) echo "Invalid color -- '$REPLY'" >&2
+			*) echo "Invalid number -- '$REPLY'" >&2
 		esac
 	done < /dev/tty  # don't read from stdin
+
+	echo "=> Changing to '$color' ..." >&2
 }
 
-change_colour() 
-{
-	sh "$COLOR".sh
-}
-
-
+colors_str="${COLORS[*]}"
+regexp="${colors_str// /\\|}"
 
 for theme_dir in "${THEME_DIRS[@]}"; do
 	[ -d "$theme_dir" ] || continue
-	THEME_EXISTS=1
 
 	for context_dir in "${CONTEXT_DIRS[@]}"; do
 		for file_path in "$theme_dir/$context_dir/"*.svg; do
 			[ -f "$file_path" ] || continue  # is a file
 			[ -L "$file_path" ] && continue  # is not a symlink
 			[ -n "$COLOR" ] || choose_color
-			change_colour "$file_path"
+
+			sed -i "s/$regexp/$COLOR/g" "$file_path"
 		done
 	done
 
+	echo "=> Done!" >&2
 	exit 0
 done
 
-if [ "$THEME_EXISTS" -ne 1 ]; then
-	echo "Icons theme Suru++ does not exist! You should rename the icons theme folder to 'suru-plus' or 'Suru++'." >&2
-	exit 1
-fi
+echo "Icons theme Suru++ does not exist! You should rename the icons theme folder to 'suru-plus' or 'Suru++'." >&2
+exit 1
