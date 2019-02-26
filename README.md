@@ -20,12 +20,31 @@ You can replace the **solid** colour of 16px icoms (`apps`, `devices`, `mimetype
 |  sunrise  |                                                                       Image yourself when you watch the sun rising                                                                        |   ![sunrise](images/sunrise.png)   |
 | telinkrin |                                      Based on [Suru++ Telinkrin](https://github.com/gusbemacbe/suru-plus-telinkrin) and on GTK Telinkrin by Paulxfce                                      | ![telinkrin](images/telinkrin.png) |
 
-GPL © 2019 Suru++ Colourise by Gustavo Costa <br/>
-MIT © 2017 [Papirus Folders](https://github.com/PapirusDevelopmentTeam/papirus-folders) by [Sergei Eremenko](https://github.com/SmartFinn)
 
 ## Installation
+
+Install via commands:
+
+```shell
+sudo wget https://git.io/fhbxw -O /usr/local/bin/suru-plus-colourise
+sudo chmod a+x /usr/local/bin/suru-plus-colourise
+```
 
 Run:
 
 ```shell
+suru-plus-colourise
 ```
+
+## More options
+
+Do not you like any of these gradients? You can try to replace any gradient colours with [Oomox](https://github.com/themix-project/oomox)!
+
+## New gradient request
+
+If you want to request new gradient colour, please open an issue and make a request [here](https://github.com/gusbemacbe/suru-plus/issues/new).Choose two colours and the name.
+
+## Licences
+
+GPL © 2019 Suru++ Colourise by Gustavo Costa <br/>
+MIT © 2017 [Papirus Folders](https://github.com/PapirusDevelopmentTeam/papirus-folders) by [Sergei Eremenko](https://github.com/SmartFinn)
