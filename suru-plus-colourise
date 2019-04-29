@@ -22,6 +22,7 @@ declare -a CONTEXT_DIRS=(
 declare -A COLORS=(
 	[arrongin]="url(#arrongin)"
 	[aurora]="url(#aurora)"
+	[cyberneon]="url(#cyberneon)"
 	[fitdance]="url(#fitdance)"
 	[oomox]="url(#oomox)"
 	[rainblue]="url(#rainblue)"
